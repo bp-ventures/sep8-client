@@ -1,6 +1,6 @@
 Stellar SEP-8 Client Webapp built using Next.js.
 
-Development setup:
+Development:
 ```
 asdf install
 npm install
