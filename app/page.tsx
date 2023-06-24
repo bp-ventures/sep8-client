@@ -26,6 +26,37 @@ export default function Home() {
       >
         <h3>SEP-8 Client Tester</h3>
         <p>Approval server URL: {approvalServerUrl}</p>
+        <p style={{ fontSize: "0.9em", fontWeight: "bold" }}>
+          How to use this tool:
+        </p>
+        <p className="small-p">
+          1. Go to{" "}
+          <a
+            target="_blank"
+            style={{ color: "blue" }}
+            href="https://laboratory.stellar.org/#txbuilder?"
+          >
+            Stellar Transaction Builder
+          </a>
+        </p>
+        <p className="small-p">
+          2. Build a transaction containing a Payment or Path Payment operation
+          using the <strong>ASUAT</strong> asset (issuer{" "}
+          <strong>
+            GCGGYGLKNGM3A5OU7PYLBLHZ2RA4JUP46UYKSLTHQHNNYHYFIDOPP65B
+          </strong>
+          )
+        </p>
+        <p className="small-p">
+          3. Click on <strong>Sign in Transaction Signer</strong> at the bottom
+        </p>
+        <p className="small-p">
+          4. Copy the <strong>Transaction Envelope XDR</strong>
+        </p>
+        <p className="small-p">5. Paste the XDR in the text area below</p>
+        <p className="small-p">
+          6. Click <strong>Submit to approval server</strong>
+        </p>
         <textarea
           style={{ fontSize: "1.2em", width: "100%" }}
           placeholder="Enter XDR here"
