@@ -40,5 +40,5 @@ Run production server:
 
 ```
 npm run build
-npm start
+npx next start -p <port>
 ```

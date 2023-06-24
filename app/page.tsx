@@ -24,7 +24,7 @@ export default function Home() {
           textAlign: "center",
         }}
       >
-        <h3>SEP-8 Client Tester</h3>
+        <h3>SEP-8 Client Tester (TESTNET)</h3>
         <p>Approval server URL: {approvalServerUrl}</p>
         <p style={{ fontSize: "0.9em", fontWeight: "bold" }}>
           How to use this tool:
