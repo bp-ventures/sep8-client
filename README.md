@@ -1,5 +1,7 @@
 Stellar SEP-8 Client Webapp built using Next.js.
 
+This app has been made to work with our customized [Regulated Assets Approval Server](https://github.com/bp-ventures/stellar-go/tree/sep8/services/regulated-assets-approval-server).
+
 ### Development
 
 Create `.env.local`:
